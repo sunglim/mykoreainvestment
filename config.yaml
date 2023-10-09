@@ -36,10 +36,6 @@ BuyEveryDayIfLowerThan:
   - code: "024110"
     quantity: 30
     price: 9600
-  # SamSung Electronics
-  - code: "005930"
-    quantity: 10
-    price: 60000
   # SamSung card
   - code: "029780"
     quantity: 1
