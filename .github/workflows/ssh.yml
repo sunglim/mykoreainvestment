@@ -13,4 +13,7 @@ jobs:
         username: "sungguklim"
         key: ${{ secrets.KEY }}
         port: "22"
-        script: whoami
+        script: |
+          whoami
+          cd /home/sungguklim/program_store/mykoreainvestment
+          git pull

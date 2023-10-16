@@ -12,7 +12,7 @@ BuyEveryDayIfBelowAverage:
       quantity: 4
     # KBstar 200
     - code: "148020"
-      quantity: 4
+      quantity: 5
 BuyEveryDayIfLowerThan:
   ExecutionTime: "12:05"
   CodeAndQuantityAndPrice:
@@ -23,7 +23,7 @@ BuyEveryDayIfLowerThan:
   # KT&G
   - code: "033780"
     quantity: 1
-    price: 80000 
+    price: 80000
   # Shinhan
   - code: "055550"
     quantity: 10
