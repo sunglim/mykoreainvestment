@@ -15,9 +15,5 @@ jobs:
         port: "22"
         script: |
           whoami
-          script /dev/null
-          screen -rx first
-          kill -SIGINT %
           cd /home/sungguklim/program_store/mykoreainvestment
           git pull
-          ./run_myaccount_docker.sh
