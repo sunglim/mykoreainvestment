@@ -1,9 +1,6 @@
 BuyEveryDayIfBelowAverage:
   ExecutionTime: "12:00"
   CodeAndQuantity:
-    # Nongsim holdings
-    - code: "072710"
-      quantity: 1
     # Woori financial
     - code: "316140"
       quantity: 4
