@@ -13,4 +13,8 @@ jobs:
         username: "sungguklim"
         key: ${{ secrets.KEY }}
         port: "22"
-        script: whoami
+        script: |
+          kill -SIGINT %
+          cd /home/limasdf/mykoreainvestment
+          git pull
+          ./run_myaccount_docker.sh
